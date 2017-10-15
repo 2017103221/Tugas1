@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME TO NEVERLAND</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body background="gambar/aafe8ddeee5822329416be8036309e58.jpg">
+
+<div class="bungkus">
+	<div id="top">
+		<div id="banner">
+			<img src="gambar/banner.jpg" width="900" height="250">
+		</div>
+		<div id="menu">
+				<ul><center>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="profil.html">Profil</a></li>
+					<li><a href="galeri.html">Galeri</a></li>
+					<li><a href="kritik&saran.html">Kritik dan Saran</a></li>
+					<li><a href="contactme.html">Contact Me</a></li>
+				</ul>
+		</div>
+	</div>
+</div>
+
+<div class="isi">
+	<center><h2>Kritik dan Saran</h2>
+	<h4>Kritik dan Saran tentang web ini</h4>
+	<form action="tujuan.html"
+		  method="GET">
+		  Nama :
+			<input type="text"
+				   name="nama">
+			<br></br>
+		  Jenis Kelamin :
+			<input type="radio"
+				 name="gender"
+				 value="m">Pria
+			<input type="radio"
+				 name="gender"
+				 value="f">Wanita
+			<input type="radio"
+				 name="gender"
+				 value="u">ganda
+			<br></br>
+		  Profesi:
+			<select name="Profesi"
+				<option value="pl">Pelajar</option>
+				<option value="ms">Mahasiswa/i</option>
+				<option value="pk">Pekerja</option>
+				<option value="pr">Pengangguran</option>
+			</select>
+			<br></br>
+		  Kritik :
+			<textarea name="bebas" colspan="50" rowspan="5" placeholder="Kritik?">
+			</textarea>
+			<br></br>
+		  Saran :
+			<textarea name="bebas" colspan="50" rowspan="5" placeholder="Saran?">
+			</textarea>
+		<br></br>
+		<input type="submit"
+			   name="submit"
+			   value="simpan" />
+	</form>
+</div>
+</body>
+</html>
